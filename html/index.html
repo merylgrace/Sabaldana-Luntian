@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouncing Balls</title>
-    
+
     <style>
         html,
         body {
@@ -48,3 +48,12 @@
             }
     </style>
 </head>
+
+<body>
+
+    <div id="container">
+        <input type="button" id="add" value="Add ball" onclick="addBall(); " />
+        <input type="button" id="shake" value="Shake" onclick="shake();" />
+        <input type="button" id="clearAll" value="Clear All" onclick="clearAll();" />
+        <canvas id="c"></canvas>
+    </div>
